@@ -1,0 +1,101 @@
+nav a{
+    font-family: ‘Roboto Slab’, ‘Helvetica Neue’, Helvetica, Arial, serif;
+    color: #50719a;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .navbar-nav > li {
+    float: left;
+    position: relative;
+  }
+
+  #mainNavigation .navbar-brand img{
+    width: 1.6rem;
+  }
+
+#mainNavigation .active{
+    color: black;
+    font-weight: 500;
+}
+
+ .navbar-nav .active::after {
+    position: absolute;
+    bottom: -10px;
+    left: 18%;
+    right: 20%;
+    width: 50%;
+    content: " ";
+    border-bottom: 5px solid #c4cfdf;
+  }
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.fa-exclamation-triangle{
+  color: #ff4f4f;
+}
+
+.fa-exclamation-circle{
+    color: #ff9900;
+}
+
+.fa-info-circle{
+    color:rgb(57, 175, 214);
+}
+
+.row .bg-fill{
+    background-color: #c4cfdf;
+}
+
+.fluid-container .border-custom{
+    border: 1.5px solid #4878c2;
+}
+
+.fluid-container .border-right-custom{
+    border-right: 1.4px solid #c4cfdf;
+}
+
+#infoBlocks{
+    font-size: 0.9rem;
+}
+
+#blueNumber{
+    color:rgb(57, 175, 214);
+}
+
+#greenNumber{
+    color: #1adf4b;
+}
+
+#orangeNumber{
+    color: #eb9d00;
+}
+
+.whiteBorder{
+    border-bottom:3px solid white;
+    border-top:3px solid white;
+}
+ .hr{
+     height: 0px;
+     width: 100%;
+     clear: both;
+     visibility: hidden;
+     overflow: hidden;
+     margin:0;
+     background-color: white;
+     padding: 0;
+ }
